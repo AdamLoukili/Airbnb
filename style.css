@@ -1,0 +1,733 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Pour Smartphone */
+@media only screen and (max-width: 768px) and (min-width: 300px){ 
+
+body{
+	margin: 0;
+	padding: 0;
+	width:100%;}
+.allmight{
+	width:100%;
+	margin-left:0px !important;
+	margin-right:15px;}
+.airbnb{
+	font-size:14px;}
+.airbnb a{
+	color:#FFF;
+	text-decoration:none;}
+	
+/* Header haut de page */
+.header{
+	
+	width:170% !important;
+	padding-left:15px;
+	padding-top:15px;
+    padding-bottom: 20px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.header ul li{
+	display:table-column;
+	list-style:none;
+	margin-bottom:50px;
+}
+.header h1{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    
+}
+.bouton1{
+	background-color:#FFF;
+    border-radius: 5px;
+	padding:15px 75px 15px 75px !important;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;}
+.bouton2{
+	background-color:rgb(0, 132,137,0.5);
+	padding:12px 73px 12px 73px !important;
+    border-radius: 5px;
+	border-style:solid;
+	border-color: #fff;
+	border-width:3px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;}
+.titre{
+	margin-right:30px;
+    font-size: 16px;
+    font-weight: 500;}
+.ecrit{
+    margin-top: 20px;
+	width:50% !important;}
+	
+/* Formulaire reservation */
+
+.reserve{
+    margin-top: 30px;
+    margin-bottom: 30px;
+	margin-right:5px;
+	padding-left:10px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.reserve h2{
+    margin-bottom: 35px;
+}
+.reserve ul{
+	padding:0;}
+.reserve ul li{
+	display:inline-block;
+    margin-bottom: 10px;
+}
+#nom{
+    line-height: 30px;
+    font-size: 20px;
+}
+#personne{
+    line-height: 30px;
+}
+.recherche{
+    background-color:crimson;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+/* Articles commenté par internautes */
+.note{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-left:10px;}
+.note p{
+    margin-bottom: 20px;
+}
+.article{
+    display:flex;
+	flex-direction:column;
+}
+.article1{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article2{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article3{
+    width: 340px;
+    padding: 0px 8px;
+}
+.profil{
+    display: flex;
+}
+.profil img{
+	border-radius:48px;
+	width:48px;
+	height:48px;
+	margin-right:15px;}
+
+/* Trois point du voyage avec airbnb */
+
+.charte{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.charter{
+    display: flex;
+	padding-left:10px;
+}
+.charte1{
+    width: 340px;
+    margin-right: 20px;
+}
+
+/* Dernière réservation en Belgique */
+
+.belgique{
+	display:flex;
+	flex-direction:column;
+	margin-left:10px;}
+
+.instant{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.instant1{
+	width:250px;
+	padding: 0px 8px;}
+.ville{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:400;}
+.instant1 p{
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.prix{
+	font-weight:300;
+	font-size:14px;
+	line-height:-10px;}
+.commentaires{
+	margin-left:10px;
+	padding-top:-15px;
+	font-size:12px;
+	font-weight:300;}
+	
+/* Lien afficher les 500+ */
+.afficher a{
+	text-decoration:none;
+	margin-left:15px;
+	color:#008489;
+	font-size:16px;
+	font-weight:700;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+	
+/* Ajout des dates */
+.quand a{
+	background-color:#008489;
+	text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-left:5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;}
+.quand a:hover{
+	text-decoration:underline;}
+.quand{
+	margin-top:80px;
+	margin-bottom:80px;
+	margin-left:15px;}
+.quand h2{
+	margin-bottom:-10px;}
+.quand p{
+	margin-bottom:30px;}
+
+/* Bas de page */
+
+footer{
+	display:flex;
+	flex-direction:column;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-left:10px;
+	margin-top:50px;
+	margin-bottom:50px;}
+.liste1 ul li{
+	list-style-type:none;
+	margin-bottom:5px;}
+.liste1 ul{
+	padding:0;}
+.liste1{
+	width:180px;
+	margin-right:90px;
+	color:#999;}
+.liste1 h4{
+	color:#333;}
+.liensocial{
+	margin-right:15px;
+	margin-bottom:30px;
+	color:#666;}
+.nouveau{
+	color:#fff;
+	font-size:12px;
+	padding: 2px 2px 2px 2px;
+	background-color:#008489;}
+.liste1 a{
+	color:#999;
+	text-decoration:none;}
+.liste1 a:hover{
+	text-decoration:underline;}
+
+/* Copyright */
+.copyright{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#666;
+	font-size:15px;
+	margin-left:15px;}
+
+}	
+
+@media only screen and (min-width: 768px) and (max-width: 1300px){ 
+
+body{
+	margin: 0;
+	padding: 0;
+	width:100%;}
+.allmight{
+	width:100%;
+	margin-left:50px !important;
+	margin-right:15px;}
+.airbnb{
+	font-size:14px;}
+.airbnb a{
+	color:#FFF;
+	text-decoration:none;}
+	
+/* Header haut de page */
+.header{
+	
+	width:155% !important;
+	padding-left:15px;
+	margin-left:-50px; 
+	padding-top:15px;
+    padding-bottom: 20px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.header ul li{
+	display:table-column;
+	list-style:none;
+	margin-bottom:50px;
+}
+.header h1{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    
+}
+.bouton1{
+	background-color:#FFF;
+    border-radius: 5px;
+	padding:15px 75px 15px 75px !important;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;}
+.bouton2{
+	background-color:rgb(0, 132,137,0.5);
+	padding:12px 73px 12px 73px !important;
+    border-radius: 5px;
+	border-style:solid;
+	border-color: #fff;
+	border-width:3px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;}
+.titre{
+	margin-right:30px;
+    font-size: 16px;
+    font-weight: 500;}
+.ecrit{
+    margin-top: 20px;
+	width:70% !important;}
+	
+/* Formulaire reservation */
+
+.reserve{
+    margin-top: 30px;
+    margin-bottom: 30px;
+	margin-right:50px;
+	padding-left:10px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.reserve h2{
+    margin-bottom: 35px;
+}
+.reserve ul{
+	padding:0;}
+.reserve ul li{
+	display:flex;
+	flex-direction:column;
+    margin-bottom: 10px;
+}
+#nom{
+    line-height: 30px;
+    font-size: 20px;
+}
+#personne{
+    line-height: 30px;
+}
+.recherche{
+    background-color:crimson;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+/* Articles commenté par internautes */
+.note{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-left:50px;}
+.note p{
+    margin-bottom: 20px;
+}
+.article{
+    display:flex;
+	flex-direction:column;
+}
+.article1{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article2{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article3{
+    width: 340px;
+    padding: 0px 8px;
+}
+.profil{
+    display: flex;
+}
+.profil img{
+	border-radius:48px;
+	width:48px;
+	height:48px;
+	margin-right:15px;}
+
+/* Trois point du voyage avec airbnb */
+
+.charte{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.charter{
+    display: flex;
+	padding-left:10px;
+}
+.charte1{
+    width: 340px;
+    padding-right: 40px !important;
+}
+
+/* Dernière réservation en Belgique */
+
+.belgique{
+	display:flex;
+	flex-direction:column;
+	margin-left:10px;}
+
+.instant{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.instant1{
+	width:250px;
+	padding: 0px 8px;}
+.ville{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:400;}
+.instant1 p{
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.prix{
+	font-weight:300;
+	font-size:14px;
+	line-height:-10px;}
+.commentaires{
+	margin-left:10px;
+	padding-top:-15px;
+	font-size:12px;
+	font-weight:300;}
+	
+/* Lien afficher les 500+ */
+.afficher a{
+	text-decoration:none;
+	margin-left:15px;
+	color:#008489;
+	font-size:16px;
+	font-weight:700;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+	
+/* Ajout des dates */
+.quand a{
+	background-color:#008489;
+	text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-left:5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;}
+.quand a:hover{
+	text-decoration:underline;}
+.quand{
+	margin-top:80px;
+	margin-bottom:80px;
+	margin-left:15px;}
+.quand h2{
+	margin-bottom:-10px;}
+.quand p{
+	margin-bottom:30px;}
+
+/* Bas de page */
+
+footer{
+	display:flex;
+	flex-direction:column;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-left:10px;
+	margin-top:50px;
+	margin-bottom:50px;}
+.liste1 ul li{
+	list-style-type:none;
+	margin-bottom:5px;}
+.liste1 ul{
+	padding:0;}
+.liste1{
+	width:180px;
+	margin-right:90px;
+	color:#999;}
+.liste1 h4{
+	color:#333;}
+.liensocial{
+	margin-right:15px;
+	margin-bottom:30px;
+	color:#666;}
+.nouveau{
+	color:#fff;
+	font-size:12px;
+	padding: 2px 2px 2px 2px;
+	background-color:#008489;}
+.liste1 a{
+	color:#999;
+	text-decoration:none;}
+.liste1 a:hover{
+	text-decoration:underline;}
+
+/* Copyright */
+.copyright{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#666;
+	font-size:15px;
+	margin-left:15px;}
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width:100%;}
+.allmight{
+	width:100%;
+	margin-left:250px;}
+.airbnb{
+	font-size:28px;}
+.airbnb a{
+	color:#FFF;
+	text-decoration:none;}
+	
+/* Header haut de page */
+.header{
+	background-image:url(images/beach-clouds-hotel-60217.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+	color:#FFF;
+	width:100%;
+	margin-left:-250px;
+	padding-left:15px;
+	padding-top:15px;
+    padding-bottom: 20px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.header ul li{
+	display:inline-block;
+	margin-bottom:50px;
+}
+.header h1{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    
+}
+.bouton1{
+	background-color:#FFF;
+    border-radius: 5px;
+	padding:15px 135px 15px 135px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;}
+.bouton2{
+	background-color:rgb(0, 132,137,0.5);
+	padding:12px 132px 12px 132px;
+    border-radius: 5px;
+	border-style:solid;
+	border-color: #fff;
+	border-width:3px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;}
+.titre{
+	margin-right:30px;
+    font-size: 20px;
+    font-weight: 500;}
+.ecrit{
+    margin-top: 50px;
+    margin-left: 250px;
+	width:100%;}
+	
+/* Formulaire reservation */
+
+.reserve{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.reserve h2{
+    margin-bottom: 35px;
+}
+.reserve ul{
+	padding:0;}
+.reserve ul li{
+	display:inline-block;
+    margin-right: 15px;
+}
+#nom{
+    line-height: 40px;
+    font-size: 20px;
+}
+#personne{
+    line-height: 40px;
+}
+.recherche{
+    background-color:crimson;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+/* Articles commenté par internautes */
+.note{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.note p{
+    margin-bottom: 20px;
+}
+.article{
+    display:flex;
+	width:
+}
+.article1{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article2{
+    width: 340px;
+    padding: 0px 8px;
+}
+.article3{
+    width: 340px;
+    padding: 0px 8px;
+}
+.profil{
+    display: flex;
+}
+.profil img{
+	border-radius:48px;
+	width:48px;
+	height:48px;
+	margin-right:15px;}
+
+/* Trois point du voyage avec airbnb */
+
+.charte{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.charter{
+    display: flex;
+}
+.charte1{
+    width: 340px;
+    margin-right: 15px;
+}
+
+/* Dernière réservation en Belgique */
+
+.belgique{
+	display:flex;}
+
+.instant{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.instant1{
+	width:250px;
+	padding: 0px 8px;}
+.ville{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:400;}
+.instant1 p{
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.prix{
+	font-weight:300;
+	font-size:14px;
+	line-height:-10px;}
+.commentaires{
+	margin-left:10px;
+	padding-top:-15px;
+	font-size:12px;
+	font-weight:300;}
+	
+/* Lien afficher les 500+ */
+.afficher a{
+	text-decoration:none;
+	color:#008489;
+	font-size:16px;
+	font-weight:700;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+	
+/* Ajout des dates */
+.quand a{
+	background-color:#008489;
+	text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;}
+.quand a:hover{
+	text-decoration:underline;}
+.quand{
+	margin-top:80px;
+	margin-bottom:80px;}
+.quand h2{
+	margin-bottom:-10px;}
+.quand p{
+	margin-bottom:30px;}
+
+/* Bas de page */
+
+footer{
+	display:flex;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-top:50px;
+	margin-bottom:50px;}
+.liste1 ul li{
+	list-style-type:none;
+	margin-bottom:5px;}
+.liste1 ul{
+	padding:0;}
+.liste1{
+	width:180px;
+	margin-right:90px;
+	color:#999;}
+.liste1 h4{
+	color:#333;}
+.liensocial{
+	margin-right:15px;
+	margin-bottom:30px;
+	color:#666;}
+.nouveau{
+	color:#fff;
+	font-size:12px;
+	padding: 2px 2px 2px 2px;
+	background-color:#008489;}
+.liste1 a{
+	color:#999;
+	text-decoration:none;}
+.liste1 a:hover{
+	text-decoration:underline;}
+
+/* Copyright */
+.copyright{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#666;
+	font-size:15px;}
